@@ -27,8 +27,7 @@ This will be popup if we need the following headers:
 
 And if we include the following options in `webpack.config.js`,
 
-```json
-{
+```
     devServer: {
         headers: {
             // Allow to use SharedBufferArray
@@ -36,7 +35,6 @@ And if we include the following options in `webpack.config.js`,
             'Cross-Origin-Embedder-Policy': 'require-corp',
         }
     }
-}
 ```
 
 It says `ConcurrentCompilationError: You ran Webpack twice. Each instance only supports a single concurrent compilation at a time.`
