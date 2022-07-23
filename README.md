@@ -2,7 +2,7 @@
 
 ## Overview
 
-We need to activate `SharedBufferArray` in Worker, in order to implement `fs.readSync` by using [Atomics.wait()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Atomics/wait).
+I need to activate `SharedBufferArray` in Worker, in order to implement `fs.readSync` by using [Atomics.wait()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Atomics/wait).
 
 ## repro
 
